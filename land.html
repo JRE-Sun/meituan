@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="css/land.css">
+</head>
+
+<body>
+    <div id="header">
+        <div>
+            <a href="index.html"></a>
+        </div>
+    </div>
+
+    <div id="center">
+        <img src="images/landpic.jpg" alt="">
+
+        <div id="center_right">
+            <form action="" method="post">
+                <p class="p1">账号登陆</p>
+                <p class="p2">手机动态码登陆</p>
+
+                <div id="center_right_Accountnumber">
+                    <p class="pimage"></p><input class="input1" type="text" name="username" value="手机号/用户名/邮箱" onclick="this.value='';focus()">
+                </div>
+
+                <div id="center_right_passw">
+                    <p class="pimage"></p><input class="input2" type="password" name="password" value="密码" onclick="this.value='';focus()">
+                </div>
+            </form>
+            <div id="center_right_rempassword">
+                <input id="checkbox1" class="input3" type="checkbox">7天内自动登录
+                <a href="javascript::">忘记密码?</a>
+            </div>
+
+            <button id="center_right_land">登陆</button>
+
+            <p id="register">还没有账号？<a href="javascript::">免费注册</a></p>
+            <p id="remind">
+                _______&nbsp&nbsp&nbsp用合作网站账号登录&nbsp&nbsp&nbsp_______
+            </p>
+
+            <p class="qq"></p>
+            <p class="sina"></p>
+        </div>
+
+    </div>
+    <!--弹出登陆失败窗口开始-->
+    <div id="land_alert">
+        <p>localhost:8088显示：</p>
+        <h4>登陆失败，请检查账号密码是否填写正确！</h4>
+
+        <input class="land_ok" type="button" value="确定">
+    </div>
+    <!--弹出登陆失败窗口结束-->
+    <div id="footer">
+        <ul class="footer_ul">
+            <li><a href="">关于美团</a></li>
+            <li class="listyle"><a href="">美团承诺</a></li>
+            <li class="listyle"><a href="">加入我们</a></li>
+            <li class="listyle"><a href="">商家入驻</a></li>
+            <li class="listyle"><a href="">帮助中心</a></li>
+            <li class="listyle last"><a href="">美团手机版</a></li>
+        </ul>
+        <a class="footer_a" href=""><img src="images/footer-commitment.png" alt=""></a>
+
+        <div class="last_cow">
+
+        </div>
+
+        <p class="footer_lastp">2016 美团网团购 meituan.com 京ICP证070791号 京公网安备11010502025545号 电子公告服务规则</p>
+    </div>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/land.js"></script>
+</body>
+
+</html>

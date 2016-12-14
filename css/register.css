@@ -1,0 +1,207 @@
+/*初始化开始*/
+body{
+
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+font-size: 15px;
+}
+a,p{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+/*初始化结束*/
+/*头部logo及登陆开始*/
+/*美团logo及链接*/
+.header_mini .site-logo{
+    left: 193px;
+    position: absolute;
+    top: 11px;
+
+}
+.header_mini .tip{
+    position: absolute;
+    left: 1016px;
+    top: 22px;
+    font-size: 14px;
+    color: #666;
+    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+}
+/*登录按钮*/
+.header_mini .btn-login{
+    position: absolute;
+    left: 1127px;
+    top: 18px;
+    width:26px ;
+    height: 19px;
+    background-color: #2db3a6;
+    font-size: 12px;
+padding: 3px 10px;
+    color: aliceblue;
+}
+.header_mini .wrapper_m{
+    height: 59px;
+border-bottom: 2px solid #2bb8aa;
+}
+/*头部logo及登录结束*/
+/*内容部分 注册账号及密码开始*/
+#content{
+   padding-top: 30px;
+    height: 330px;
+    border-bottom:1px solid #EEEEEE;
+}
+#content .sheet{
+    width: 980px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+label {
+    cursor: default;
+}
+
+
+#content .sheet .account{
+width: 260px;
+    height: 30px;
+
+    padding: 3px 4px;
+    border: 1px solid #aaa;
+}
+
+.zh label{
+    position: absolute;
+    left: 58px;
+    top:18px;
+}
+
+.zh input{
+    position: absolute;
+    left: 110px;
+    top:8px;
+}
+.zh p{
+    position: absolute;
+    clear: both;
+    left: 400px;
+    top: 16px;
+}
+.mm label{
+    position: absolute;
+    left: 45px;
+    top:90px;
+}
+.mm input{
+    position: absolute;
+    left: 110px;
+    top:80px;
+}
+.mm .mm_password{
+    width: 260px;
+    height: 30px;
+    padding: 3px 4px;
+    border: 1px solid #aaa;
+}
+.mm p{
+    position: absolute;
+    clear: both;
+    left: 400px;
+    top: 91px;
+}
+.mm_qr label{
+    position: absolute;
+    left: 45px;
+    top:162px;
+}
+.mm_qr input{
+    position: absolute;
+    left: 110px;
+    top:160px;
+}
+.mm_qr .mm_password{
+    width: 260px;
+    height: 30px;
+    padding: 3px 4px;
+    border: 1px solid #aaa;
+}
+.mm_qr p{
+    position: absolute;
+    clear: both;
+    left: 400px;
+    top: 170px;
+}
+/*内容部分 注册账号及密码结束*/
+/*注册按钮部分开始*/
+/*#content .form_field {*/
+
+
+
+    /*background-color: #2ec3b4;*/
+    /*!*padding: 3px 4px;*!*/
+    /*!*border: 1px solid #aaa;*!*/
+    /*!*border-bottom-color: #008177;*!*/
+    /*line-height: 35px;*/
+/*}*/
+#content #send{
+    position: absolute;
+    left: 110px;
+    top:225px;
+    width: 179px;
+    height: 33px;
+    background-color:#2ec3b4 ;
+    border-color:#2ec3b4 ;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+/*#content .form_field a{*/
+   /*display: block;*/
+/*color: azure;*/
+    /*line-height: 35px;*/
+    /*height: 35px;*/
+    /*font-weight: 600;*/
+    /*border-radius: 2px;*/
+/*}*/
+#content .term{
+    position: absolute;
+    left: 110px;
+    top:283px;
+}
+#content .term a{
+    color: #2ec3b4;
+}
+/*注册按钮部分开始*/
+/*页尾部分开始*/
+.footer_mini{
+    position: relative;
+}
+.footer_mini .f1{
+    position: absolute;
+    left: 496px;
+    top: 24px;
+    color: #999;
+    font-size: 12px;
+}
+.footer_mini .f2{
+    position: absolute;
+    left: 589px;
+    top: 23px;
+    color: #999;
+    font-size: 13px;
+}
+.footer_mini .f3{
+    position: absolute;
+    left: 715px;
+    top: 23px;
+    color: #999;
+    font-size: 13px;
+}
+/*页尾部分结束*/

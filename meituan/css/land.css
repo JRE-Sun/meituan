@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    color: #666;
+    width: 1349px;
+    height: 682px;
+    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+}
+
+#header{
+    width: 1349px;
+    height: 124px;
+    position: relative;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+#header div{
+    width: 980px;
+    height: 54px;
+    margin: 0px auto;
+}
+
+
+#header a{
+    width: 82px;
+    height: 54px;
+    overflow: hidden;
+    display: block;
+    background: no-repeat url(../images/下载.png) -188px -782px;
+}
+
+#center{
+    width: 980px;
+    height: 440px;
+    border-bottom: 1px solid #EEEEEE;
+    margin: -40px auto;
+}
+
+
+#center img{
+    width: 480px;
+    height: 370px;
+    display: block;
+    float: left;
+}
+
+
+
+#center_right{
+    width: 270px;
+    height: 342px;
+    float: right;
+    margin-right: 115px;
+    position: relative;
+} 
+
+#center_right .p1{
+    position: absolute;
+    left: 0px;
+    top: 54px;
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+} 
+
+#center_right .p2{
+    position: absolute;
+    left: 170px;
+    top: 54px;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    /*background: no-repeat url(../images/下载.png) -1268px -527px;*/
+} 
+
+
+
+
+#center_right #center_right_Accountnumber{
+    position: absolute;
+    left: 0px;
+    top: 85px;
+    width: 268px;
+    height: 34px;
+    border: 1px solid #AAAAAA;
+} 
+
+
+#center_right #center_right_Accountnumber .pimage{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: no-repeat url(../images/下载.png) -1250px -617px;
+} 
+
+
+#center_right #center_right_Accountnumber .input1{
+    position: absolute;
+    left: 33px;
+    top: 5px;
+    width: 230px;
+    height: 24px;
+    border: 0px;
+    color: #BEBEBE;
+    outline: none;
+}
+
+
+#center_right #center_right_passw{
+    position: absolute;
+    left: 0px;
+    top: 135px;
+    width: 268px;
+    height: 34px;
+    border: 1px solid #AAAAAA;
+} 
+
+#center_right #center_right_passw .pimage{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: no-repeat url(../images/下载.png) -1250px -527px;
+} 
+
+
+#center_right #center_right_passw .input2{
+    position: absolute;
+    left: 33px;
+    top: 5px;
+    width: 230px;
+    height: 24px;
+    border: 0px;
+    color: #BEBEBE;
+    outline: none;
+}
+
+#center_right #center_right_rempassword{
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    width: 268px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+#center_right #center_right_rempassword .input3{
+    vertical-align: middle; /*让box和box后面的文字剧中对齐*/
+    height: 15px;
+    line-height: 15px;
+}
+
+
+#center_right #center_right_rempassword a{
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: #2BB8AA;
+    font-size: 12px;
+    font-weight: 400; 
+}
+
+#center_right #center_right_land{
+    display: block;
+    position: absolute;
+    top: 209px;
+    width: 100%;
+    height: 35px;
+    border: 0px;
+    color: white;
+    background: #2EB9AB;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+#center_right #register{
+    display: block;
+    position: absolute;
+    top: 251px;
+    width: 100%;
+}
+
+#center_right #register a{
+    color: #2EB9AB;
+    text-decoration: none;
+}
+
+#center_right #remind{
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    width: 100%;
+}
+
+
+
+#center_right .qq{
+    display: block;
+    position: absolute;
+    top: 310px;
+    left: 88px;
+    width: 18px;
+    height: 18px;
+    background: no-repeat url(../images/下载.png) -1250px -491px;
+}
+
+
+#center_right .sina{
+    display: block;
+    position: absolute;
+    top: 310px;
+    left: 126px;
+    width: 18px;
+    height: 18px;
+    background: no-repeat url(../images/下载.png) -1250px -599px;
+}
+
+
+/*footer开始*/
+
+#footer{
+    width: 980px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 57px;
+    clear: both;
+}
+
+
+#footer .footer_ul{
+    list-style: none;
+    height: 31px;
+    float: left;
+}
+
+#footer .footer_ul li{
+    height: 14px;
+    float: left;
+    width: 65px;
+    line-height: 14px;
+    border-right: 1px solid #eee;
+    font-size: 12px;
+}
+
+#footer .footer_ul li.last{
+    height: 14px;
+    float: left;
+    width: 65px;
+    line-height: 14px;
+    border-right: 1px solid white;
+    font-size: 12px;
+}
+
+#footer .footer_ul li.listyle{
+    padding-left: 15px;
+}
+
+#footer .footer_ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+
+#footer .footer_ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+
+#footer a.footer_a{
+    width: 276px;
+    height: 24px;
+    display: block;
+    position: relative;
+    top: -35px;
+    right: -595px;
+}
+
+
+#footer .last_cow{
+    width: 980px;
+    height: 1px;
+    margin: 0 auto;
+    background: #EEEEEE;
+    margin-top: 7px;
+}
+
+#footer .footer_lastp{
+    margin-top: 21px;
+    font-size: 12px;
+    color: #999999
+}
+
+/*弹出登陆失败窗口开始*/
+#land_alert{
+    display: none;
+    width: 438px;
+    height: 145px;
+    border: 1px solid #BBBBBB;
+    float: left;
+    position: fixed;
+    left: 373px;
+    top: 265px;
+    background-color: white;
+}
+#land_alert p{
+    height: 32px;
+    /*width: 100%;*/
+    line-height: 32px;
+    background-color: #FBFBFB;
+    padding-left: 20px;
+}
+#land_alert h4{
+    padding-top: 16px;
+    padding-left: 20px;
+}
+#land_alert .land_ok{
+    height: 30px;
+    width: 70px;
+    border-color: cornflowerblue;
+    margin-left: 346px;
+    margin-top: 26px;
+    text-align: center;
+    background-color: white;
+}
+/*弹出登陆失败窗口结束*/

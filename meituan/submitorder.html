@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>美团网</title>
+    <link href="css/submitorder.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--顶部导航开始-->
+    <div id="top_navigation">
+        <div class="top_navigation_content">
+            <a id="id_a1" class="a1 a13" href="">收藏美团</a>
+            <a id="btn_land" class="a2 a3 a13" href="javascript::">登陆</a>
+            <a id="btn_land_out" class="a2 a13 land_out" href="javascript::">退出</a>
+            <a id="btn_register" class="a2 a4 a13" href="register.html">注册</a>
+            <a id="id_a5" class="a5 a13" href="">手机美团</a>
+            <a class="a7" href=""><img src="images/免费下载美团.png" alt=""></a>
+            <a class="a8" href=""><img src="images/免费下载猫眼.png" alt=""></a>
+
+            <a class="a2 a4 a5 a11 a12" href="">更多</a>
+            <a class="a2 a4 a5 a12" href="">我是商家</a>
+            <a class="a2 a4 a5 a12" href="">联系客服</a>
+            <a class="a2 a4 a5 a10 a12" href="">购物车<span>0</span>件</a>
+            <a class="a2 a4 a5 a12" href="">最近浏览</a>
+            <a id="id_a2_a4_a5_a12" class="a2 a4 a5 a12" href="">我的美团</a>
+            <a class="a9 a12" href="">我的订单</a>
+
+            <ul id="div_a2_a4_a5_a12">
+                <li><a href="">我的订单</a></li>
+                <li><a href="">我的评价</a></li>
+                <li><a href="">我的收藏</a></li>
+                <li><a href="">我的积分</a></li>
+                <li><a href="">抵用卷</a></li>
+                <li><a href="">我的余额</a></li>
+                <li><a href="">账户设置</a></li>
+            </ul>
+        </div>
+        <!--顶部导航结束-->
+    </div>
+    <!--订单步骤部分开始-->
+    <div class="site_master">
+        <a href="javascript::" class="site_m1"></a>
+        <div class="site_m2">
+            <li class="m1">1.提交订单</li>
+            <li class="m2">2.选择支付方式</li>
+            <li class="m3">3.购买成功</li>
+            <a class="a si_a1"></a>
+            <a class="a si_a2"></a>
+            <a class="a si_a3"></a>
+        </div>
+    </div>
+    <!--订单步骤部分结束-->
+    <!--订单项目内容开始-->
+    <div id="content">
+        <table id="buy_table">
+            <tr class="order_row1">
+                <th class="desc">项目</th>
+                <th class="unit_price">单价</th>
+                <th class="amount">数量</th>
+                <th class="col_total">总价</th>
+            </tr>
+            <tr class="order_row2">
+                <td class="desc">
+                    <a id="shop_title" href="javascript::"></a>
+                </td>
+                <td class="unit_price">¥<span id="total1">9.80</span></td>
+                <td class="amount">
+                    <div class="amount_add">
+                        <a href="javascript::" class="a_reduce"></a>
+                        <input type="text" value="1" class="quantity">
+                        <a href="javascript::" class="a_add"></a>
+                    </div>
+                </td>
+                <td class="col_total">¥<span id="total2">9.8</span></td>
+            </tr>
+            <tr class="order_row2 row3">
+                <td class="desc"></td>
+                <td class="unit_price"></td>
+                <td class="amount"></td>
+                <td class="col_total">抵用券：-¥0</td>
+            </tr>
+            <tr class="order_row2 row4">
+                <td class="desc"></td>
+                <td class="unit_price"></td>
+                <td class="amount"></td>
+                <td class="col_total">应付金额：<span id="total3">¥9.80</span></td>
+            </tr>
+        </table>
+    </div>
+    <div class="form_submit">
+        <a class="btn_submit" href="javascript::"></a>
+        <!--<input class="btn_submit" type="submit" value="提交订单">-->
+    </div>
+    <!--订单项目内容结束-->
+    <!--弹出登录窗口部分开始-->
+
+    <div class="login_section">
+        <div class="head">
+            <h3 id="head_land">登录
+                <a class="close"></a>
+            </h3>
+
+        </div>
+        <div id="center_right">
+            <p class="p1">账号登录</p>
+            <p class="p2">手机动态码登录</p>
+
+            <div id="center_right_Accountnumber">
+                <p class="pimage"></p><input class="input1" type="text" value="手机号/用户名/邮箱">
+            </div>
+
+            <div id="center_right_passw">
+                <p class="pimage"></p><input class="input2" type="text" value="密码">
+            </div>
+
+            <div id="center_right_rempassword">
+                <input class="input3" type="checkbox">7天内自动登录
+                <a href="javascript::">忘记密码?</a>
+            </div>
+
+            <button id="center_right_land">登录</button>
+
+            <p id="register">还没有账号？<a href="http://localhost:63342/%E4%BB%BF%E7%BE%8E%E5%9B%A2/register.html">免费注册</a>
+            </p>
+            <p id="remind">
+                _______&nbsp&nbsp&nbsp用合作网站账号登录&nbsp&nbsp&nbsp_______
+            </p>
+
+            <p class="qq"></p>
+            <p class="sina"></p>
+        </div>
+        <!--弹出登录窗口部分结束-->
+    </div>
+    <!--页尾部分开始-->
+    <footer class="footer_site">
+        <div class="site_outo">
+            <div class="site_info">
+                <!--获取更新部分开始-->
+                <div class="info_item1">
+                    <h3>获取更新</h3>
+                    <ul>
+                        <li><a>邮件订阅</a></li>
+                        <li><a>iPhone/Android</a></li>
+                        <li><a>美团QQ空间</a></li>
+                        <li><a>美团新浪微博</a></li>
+                        <li><a>sitemap</a></li>
+                        <li><a>RSS订阅</a></li>
+                    </ul>
+                </div>
+                <!--获取更新部分结束-->
+                <!--商务合作部分开始-->
+                <div class="info_item1 info_item2">
+                    <h3>商务合作</h3>
+                    <ul>
+                        <li><a href="##">商家合作</a></li>
+                        <li><a href="##">美团商家营销平台</a></li>
+                        <li><a href="##">市场合作</a></li>
+                        <li><a href="##">美团联盟</a></li>
+                        <li><a href="##">美团云</a></li>
+                        <li><a href="##">廉正邮箱</a></li>
+                        <li><a href="##">餐饮开放平台</a></li>
+                    </ul>
+                </div>
+                <!--商务合作部分结束-->
+                <!--公司信息部分开始-->
+                <div class="info_item1">
+                    <h3>公司信息</h3>
+                    <ul>
+                        <li><a href="##">关于美团</a></li>
+                        <li><a href="##">美团承诺</a></li>
+                        <li><a href="##">媒体报道</a></li>
+                        <li><a href="##">加入我们</a></li>
+                        <li><a href="##">法律声明</a></li>
+                        <li><a href="##">用户协议</a></li>
+                    </ul>
+                </div>
+                <!--公司信息部分结束-->
+                <!--用户帮助部分开始-->
+                <div class="info_item1">
+                    <h3>用户帮助</h3>
+                    <ul>
+                        <li><a href="##">申请退款</a></li>
+                        <li><a href="##">查看美团券密码</a></li>
+                        <li><a href="##">常见问题</a></li>
+                        <li><a href="##">开放API</a></li>
+                        <li><a href="##">反诈骗公告</a></li>
+                    </ul>
+                </div>
+                <!--用户帮助部分结束-->
+                <!--客服电话部分开始-->
+                <div class="info_right">
+
+                </div>
+                <!--客服电话部分结束-->
+            </div>
+            <div class="site_bottom">
+                <div class="bottom1">
+                    <p>©2016
+                        <a href="##">美团团购</a> meituan.com
+                        <a href="##">京ICP证070791号 &nbsp 京ICP备10211739号 </a>
+                    </p>
+                </div>
+                <div class="bottom2"></div>
+                <a href="javascript::" class="bottom3"></a>
+            </div>
+        </div>
+
+    </footer>
+    <!--页尾部分结束-->
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/submitorder.js"></script>
+</body>
+
+</html>

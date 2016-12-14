@@ -1,0 +1,679 @@
+/*初始化开始*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font: 400 14px/1.5 'Hiragino Sans GB', 'WenQuanYi Micro Hei', tahoma, sans-serif;
+    font-size: 15px;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    color: #666666;
+}
+
+/*初始化结束*/
+/*顶部导航条开始*/
+
+#top_navigation {
+    width: 1349px;
+    height: 30px;
+    line-height: 30px;
+    background: #F9F9F9;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#top_navigation .top_navigation_content {
+    width: 980px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+#top_navigation .top_navigation_content .a1 {
+    line-height: 30px;
+    height: 30px;
+    text-decoration: none;
+    padding-left: 18px;
+    background: url(../images/icon1.png) no-repeat 0 6px;
+    margin-right: 20px;
+}
+
+#top_navigation .top_navigation_content .a2 {
+    text-decoration: none;
+
+    color: #666666;
+
+    margin-right: 10px;
+}
+
+#top_navigation .top_navigation_content .a3 {
+    color: #F76120;
+
+}
+
+#top_navigation .top_navigation_content .a4 {
+    border-right: 1px solid #DDDDDD;
+    padding-right: 10px;
+
+}
+
+#top_navigation .top_navigation_content .a5 {
+    width: 50px;
+    height: 29px;
+    padding-right: 20px;
+    padding-left: 10px;
+    background: url(../images/down.png) no-repeat 64px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #F9F9F9;
+    border-left: 1px solid #F9F9F9;
+    border-top: 1px solid #F9F9F9;
+    border-right: 1px solid #F9F9F9;
+    border-bottom: 1px solid #EEEEEE;
+    position: relative;
+}
+
+#top_navigation .top_navigation_content .a6 {
+    background: url(../images/up.png) no-repeat 64px;
+    width: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    line-height: 29px;
+    text-decoration: none;
+    height: 29px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+    z-index: 55;
+}
+
+#top_navigation .top_navigation_content .a7 {
+    width: 164px;
+    height: 132px;
+    display: block;
+    /*background: url(../images/免费下载美团.png) no-repeat;*/
+    position: absolute;
+    top: 31px;
+    left: 350px;
+    border: 1px solid #DDDDDD;
+    border-bottom: 1px dotted #DDDDDD;
+    z-index: 5;
+    display: none;
+}
+
+#top_navigation .top_navigation_content .a7 img {
+    width: 100%;
+    height: 100%;
+}
+
+#top_navigation .top_navigation_content .a8 {
+    width: 164px;
+    height: 132px;
+    display: block;
+    background: #FFFFFF;
+    position: absolute;
+    top: 165px;
+    left: 350px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    z-index: 5;
+    display: none;
+}
+
+#top_navigation .top_navigation_content .a8 img {
+    width: 100%;
+    height: 100%;
+}
+
+#top_navigation .top_navigation_content .a9 {
+    text-decoration: none;
+    padding-left: 18px;
+}
+
+#top_navigation .top_navigation_content .a10 {
+    width: 60px;
+    background: url(../images/down.png) no-repeat 66px;
+}
+
+#top_navigation .top_navigation_content .a11 {
+    width: 35px;
+    padding-right: 20px;
+    background: url(../images/down.png) no-repeat 40px;
+}
+
+#top_navigation .top_navigation_content .a12 {
+    float: right;
+}
+
+#top_navigation .top_navigation_content .a13 {
+    float: left;
+}
+
+#top_navigation .top_navigation_content .land_out{
+    display: none;
+}
+
+#top_navigation .top_navigation_content #div_a2_a4_a5_a12 {
+    list-style: none;
+    width: 80px;
+    border: 1px solid #DDDDDD;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    position: absolute;
+    left: 618px;
+    top: 30px;
+    display: none;
+    background: white;
+    z-index: 55;
+}
+
+#top_navigation .top_navigation_content #div_a2_a4_a5_a12 li {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+
+#top_navigation .top_navigation_content #div_a2_a4_a5_a12 li a {
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+}
+
+/*顶部导航条结束*/
+/*订单步骤部分开始*/
+.site_master {
+    width: 980px;
+    height: 74px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.site_master .site_m1 {
+    width: 84px;
+    height: 74px;
+    float: left;
+    background: url("../images/下载.png") no-repeat -188px -782px;
+}
+
+.site_master .site_m2 {
+    left: 108px;
+    position: absolute;
+    float: left;
+    height: 49px;
+}
+
+.site_master .site_m2 li {
+    float: left;
+    padding-top: 18px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    color: #999999;
+    width: 181px;
+    text-align: center;
+}
+
+.site_master .site_m2 .m1 {
+    border-bottom: 4px solid #2BB8AA;
+    color: #666666;
+}
+
+.site_master .site_m2 .m2 {
+    border-bottom: 4px solid #E6E6E6;
+}
+
+.site_master .site_m2 .m3 {
+    border-bottom: 4px solid #E6E6E6;
+}
+
+.site_master .site_m2 .a {
+    display: block;
+    margin-top: 7px;
+    height: 41px;
+    position: absolute;
+    float: left;
+}
+
+.site_master .site_m2 .si_a1 {
+
+    left: 658px;
+    width: 37px;
+    background: url("../images/item1.png") no-repeat;
+}
+
+.site_master .site_m2 .si_a2 {
+
+    left: 714px;
+    width: 60px;
+    background: url("../images/item2.png") no-repeat;
+}
+
+.site_master .site_m2 .si_a3 {
+
+    left: 794px;
+    width: 37px;
+    background: url("../images/item3.png") no-repeat;
+}
+
+/*订单步骤部分结束*/
+/*订单项目内容开始*/
+#content {
+    width: 980px;
+    height: 230px;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+table th {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    text-align: left;
+}
+
+#content .order_row1 {
+    height: 33px;
+    background-color: #F7F7F7;
+    /*width: 100px;*/
+}
+
+#content .desc {
+    width: 500px;
+    padding-left: 16px;
+}
+
+#content .unit_price {
+    width: 100px;
+    text-align: right;
+    padding-right: 13px;
+}
+
+#content .amount {
+    width: 185px;
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+}
+
+#content .col_total {
+    width: 190px;
+    text-align: right;
+    padding-right: 13px;
+}
+
+#content .order_row2 {
+    height: 59px;
+    border-bottom: 1px dotted #E5E5E5;
+    line-height: 59px;
+}
+
+#content .order_row2 .amount_add {
+    height: 34px;
+    width: 85px;
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    border: 1px solid lightgray;
+}
+#content .order_row2 .a_reduce{
+    display: block;
+    width: 20px;
+    height: 34px;
+    background:url("../images/减号 .png") no-repeat;
+    float: left;
+}
+#content .order_row2 .quantity{
+    position: absolute;
+    left: 33px;
+    top: 9px;
+}
+#content .order_row2 .a_add{
+    display: block;
+    width: 25px;
+    height: 34px;
+    background:url("../images/加号 .png") no-repeat;
+    position: absolute;
+    right: 0px;
+    float: right;
+}
+#content .order_row2 .col_total {
+    color: red;
+}
+#content .row3 .col_total{
+   color: #666666;
+}
+#content .row4 .col_total{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content .row4 .col_total span{
+    color: #F76120;
+    font-size: 20px;
+}
+.form_submit{
+    left: 1037px;
+    position: absolute;
+    width: 129px;
+    height: 41px;
+
+}
+.form_submit .btn_submit{
+    display: block;
+    width: 129px;
+    height: 41px;
+    background-image:url("../images/提交按钮.png");
+}
+    /*订单项目内容结束*/
+/*登录界面开始*/
+/*.full_section{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*!*filter: alpha(opacity=0);*!*/
+    /*!*opacity: 0;*!*/
+/*}*/
+.login_section {
+    position: fixed;
+/*position: absolute;*/
+    top: 58px;
+    left: 448px;
+    width: 438px;
+    height: 540px;
+    border: 7px solid #BBBBBB;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background-color: white;
+    display: none;
+}
+
+/*头部*/
+.head {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f7f7f7;
+    padding-left: 15px;
+
+}
+
+.head #head_land {
+    position: relative;
+}
+
+.head .close {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    right: 6px;
+    display: block;
+    background: url("../images/关闭按钮3.png") no-repeat;
+}
+
+/*头部*/
+
+#center_right {
+    width: 440px;
+    height: 372px;
+    /*float: right;*/
+
+    position: relative;
+    margin: 40px 84px 128px 84px;
+}
+
+#center_right .p1 {
+    position: absolute;
+    left: 0px;
+    top: 54px;
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+}
+
+#center_right .p2 {
+    position: absolute;
+    left: 170px;
+    top: 54px;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    /*background: no-repeat url(../images/下载.png) -1268px -527px;*/
+}
+
+#center_right #center_right_Accountnumber {
+    position: absolute;
+    left: 0px;
+    top: 85px;
+    width: 268px;
+    height: 34px;
+    border: 1px solid #AAAAAA;
+}
+
+#center_right #center_right_Accountnumber .pimage {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: no-repeat url(../images/下载.png) -1250px -617px;
+}
+
+#center_right #center_right_Accountnumber .input1 {
+    position: absolute;
+    left: 33px;
+    top: 5px;
+    width: 230px;
+    height: 24px;
+    border: 0px;
+    color: #BEBEBE;
+    outline: none;
+}
+
+#center_right #center_right_passw {
+    position: absolute;
+    left: 0px;
+    top: 135px;
+    width: 268px;
+    height: 34px;
+    border: 1px solid #AAAAAA;
+}
+
+#center_right #center_right_passw .pimage {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: no-repeat url(../images/下载.png) -1250px -527px;
+}
+
+#center_right #center_right_passw .input2 {
+    position: absolute;
+    left: 33px;
+    top: 5px;
+    width: 230px;
+    height: 24px;
+    border: 0px;
+    color: #BEBEBE;
+    outline: none;
+}
+
+#center_right #center_right_rempassword {
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    width: 268px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+#center_right #center_right_rempassword .input3 {
+    vertical-align: middle; /*让box和box后面的文字剧中对齐*/
+    height: 15px;
+    line-height: 15px;
+}
+
+#center_right #center_right_rempassword a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: #2BB8AA;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#center_right #center_right_land {
+    display: block;
+    position: absolute;
+    top: 209px;
+    width: 270px;
+    height: 35px;
+    border: 0px;
+    color: white;
+    background: #2EB9AB;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#center_right #register {
+    display: block;
+    position: absolute;
+    top: 251px;
+    width: 100%;
+    color: #666666;
+}
+
+#center_right #register a {
+    color: #2EB9AB;
+    text-decoration: none;
+}
+
+#center_right #remind {
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    width: 100%;
+    color: #666666;
+}
+
+#center_right .qq {
+    display: block;
+    position: absolute;
+    top: 310px;
+    left: 88px;
+    width: 18px;
+    height: 18px;
+    background: no-repeat url(../images/下载.png) -1250px -491px;
+}
+
+#center_right .sina {
+    display: block;
+    position: absolute;
+    top: 310px;
+    left: 126px;
+    width: 18px;
+    height: 18px;
+    background: no-repeat url(../images/下载.png) -1250px -599px;
+}
+
+/*登录界面结束*/
+/*页尾部分开始*/
+.site_outo{
+    width: 100%;
+    height: 448px;
+    margin-top: 250px;
+}
+.site_outo .site_info{
+    width: 973px;
+    height: 199px;
+    margin: 0 auto;
+    border-top: 2px solid #aaaaaa;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.site_outo .site_info a{
+    color: #999999;
+}
+.site_outo .site_info .info_item1{
+    width: 169px;
+    height: 196px;
+    padding-left: 10px;
+    float: left;
+
+}
+.site_outo .site_info .info_item1 h3{
+    margin-bottom: 12px;
+}
+.site_outo .site_info .info_item2{
+    float: left;
+}
+/*客服电话部分开始*/
+.site_outo .site_info .info_right{
+    background:url("../images/客服电话.png") no-repeat;
+    width: 250px;
+    height: 180px;
+    /*margin-bottom: 10px;*/
+    float: left;
+    border-left: 1px solid #A9A9A9;
+}
+/*客服电话部分结束*/
+.site_outo .site_bottom{
+    width: 100%;
+    height:248px ;
+    border-top: 1px solid #DDDDDD;
+}
+.site_outo .site_bottom .bottom1{
+    margin: 0 auto;
+    width: 492px;
+    padding-top: 29px;
+}
+.site_outo .site_bottom .bottom2{
+    width: 180px;
+    height: 21px;
+    background: url("../images/京公网.png");
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.site_outo .site_bottom .bottom3{
+    display: block;
+    width: 333px;
+    height:37px ;
+    margin: 0 auto;
+    background: url("../images/网站备案.png");
+    margin-top: 52px;
+}
+/*页尾部分结束*/

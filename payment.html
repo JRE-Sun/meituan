@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>收银台</title>
+    <link href="css/payment.css" rel="stylesheet">
+</head>
+<body>
+<!--支付步骤部分开始-->
+<div class="site_master">
+    <a href="javascript::" class="site_m1"></a>
+    <div class="site_m2">
+        <li class="m1">1.提交订单</li>
+        <li class="m2">2.选择支付方式</li>
+        <li class="m3">3.购买成功</li>
+        <a class="a si_a1"></a>
+        <a class="a si_a2"></a>
+        <a class="a si_a3"></a>
+    </div>
+</div>
+<!--支付步骤部分结束-->
+<!--支付过程部分开始-->
+<div id="content">
+    <span class="order_name">项目：猪脑壳凉面单人餐</span>
+    <span class="payable">应付金额：<span class="pay_price">¥9.80</span></span>
+    <div class="payment_type">
+
+        <ul class="payment_menu">
+            <li><a id="a1" href="javascript::" class="payment_tap1">微信/财付通/支付宝</a></li>
+            <li><a id="a2" href="javascript::" class="payment_tap2 ">网银支付</a></li>
+        </ul>
+        <ul class="payment_tips">
+            <li><a class="payment_droopdown" href="javascript::">意见反馈</a></li>
+            <li><a class="tips_back" href="javascript::">支付帮助</a></li>
+        </ul>
+    </div>
+    <!--支付帮助隐藏的div部分开始-->
+    <div class="payment_collapse">
+        <h4><a href="javascript::" class="collapse_arrow">没开通网上银行如何购买？</a></h4>
+        <h4><a href="javascript::" class="collapse_arrow">没找到我常用的网上银行？</a></h4>
+        <h4><a href="javascript::" class="collapse_arrow">什么是地方银行？</a></h4>
+        <h4><a href="javascript::" class="collapse_arrow">无法跳转到对应的支付页面支付？</a></h4>
+        <h4><a href="javascript::" class="collapse_arrow">网上银行扣款后，订单仍显示"未付款"怎么办？</a></h4>
+        <a class="more" href="javascript::">更多</a>
+    </div>
+    <!--支付帮助隐藏的div部分结束-->
+
+    <!--微信、财付通、支付宝选择方式开始-->
+    <div class="payment_list" id="list1">
+        <ul>
+            <li>
+                <input type="radio">
+                <label><img src="images/微信支付.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/财付通.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/支付宝.png"></label>
+            </li>
+        </ul>
+    </div>
+    <!--微信、财付通、支付宝选择方式结束-->
+    <!--网银支付方式选择开始-->
+    <div class="payment_list payment_list_1" id="list2">
+        <p>支持储蓄卡和信用卡，需要开通网银</p>
+        <ul class="clear_fix">
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/cmb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/icbc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/ccb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/abc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/bofc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/bofc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/cib.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/cebb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/spdb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/gfyh.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/zxyh.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/cmbc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/pingan.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/bob.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/bjrcb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/pspc.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/shrcb.png"></label>
+            </li>
+            <li>
+                <input type="radio">
+                <label><img src="images/payment_images/hzcb.png"></label>
+            </li>
+        </ul>
+    </div>
+    <!--网银支付方式选择结束-->
+    <!--美团手机版扫一扫付款部分开始-->
+    <div id="payoff">
+        <div class="qr">
+            <div class="qr_text">
+                <p><span>美团手机版</span>&nbsp扫码支付</p>
+                <a href="http://i.meituan.com/mobile/down/meituan">点我下载美团手机版</a>
+                <br/>
+            </div>
+            <div class="qr_img">
+                <img src="images/二维码.png">
+            </div>
+        </div>
+        <img class="qr_guide" src="images/payment_images/mt-qrcode-guide.3IN3Gt.png">
+
+        <div class="payment_amount">支付：<span>¥9.80</span></div>
+        <div class="payment_submit"><a class="btn" href="javascript::">去付款</a></div>
+        <div class="payment_back"><a>返回修改菜单</a></div>
+    </div>
+
+    <!--美团手机版付款部分结束-->
+</div>
+<!--支付过程部分结束-->
+
+<!--页尾部分开始-->
+<footer class="footer_site">
+    <div class="site_outo">
+        <div class="site_info">
+            <!--获取更新部分开始-->
+            <div class="info_item1">
+                <h3>获取更新</h3>
+                <ul>
+                    <li><a>邮件订阅</a></li>
+                    <li><a>iPhone/Android</a></li>
+                    <li><a>美团QQ空间</a></li>
+                    <li><a>美团新浪微博</a></li>
+                    <li><a>sitemap</a></li>
+                    <li><a>RSS订阅</a></li>
+                </ul>
+            </div>
+            <!--获取更新部分结束-->
+            <!--商务合作部分开始-->
+            <div class="info_item1 info_item2">
+                <h3>商务合作</h3>
+                <ul>
+                    <li><a href="##">商家合作</a></li>
+                    <li><a href="##">美团商家营销平台</a></li>
+                    <li><a href="##">市场合作</a></li>
+                    <li><a href="##">美团联盟</a></li>
+                    <li><a href="##">美团云</a></li>
+                    <li><a href="##">廉正邮箱</a></li>
+                    <li><a href="##">餐饮开放平台</a></li>
+                </ul>
+            </div>
+            <!--商务合作部分结束-->
+            <!--公司信息部分开始-->
+            <div class="info_item1">
+                <h3>公司信息</h3>
+                <ul>
+                    <li><a href="##">关于美团</a></li>
+                    <li><a href="##">美团承诺</a></li>
+                    <li><a href="##">媒体报道</a></li>
+                    <li><a href="##">加入我们</a></li>
+                    <li><a href="##">法律声明</a></li>
+                    <li><a href="##">用户协议</a></li>
+                </ul>
+            </div>
+            <!--公司信息部分结束-->
+            <!--用户帮助部分开始-->
+            <div class="info_item1">
+                <h3>用户帮助</h3>
+                <ul>
+                    <li><a href="##">申请退款</a></li>
+                    <li><a href="##">查看美团券密码</a></li>
+                    <li><a href="##">常见问题</a></li>
+                    <li><a href="##">开放API</a></li>
+                    <li><a href="##">反诈骗公告</a></li>
+                </ul>
+            </div>
+            <!--用户帮助部分结束-->
+            <!--客服电话部分开始-->
+            <div class="info_right">
+
+            </div>
+            <!--客服电话部分结束-->
+        </div>
+        <div class="site_bottom">
+            <div class="bottom1">
+                <p>©2016
+                    <a href="##">美团团购</a>
+                    meituan.com
+                    <a href="##">京ICP证070791号 &nbsp 京ICP备10211739号 </a>
+                </p>
+            </div>
+            <div class="bottom2"></div>
+            <a href="javascript::" class="bottom3"></a>
+        </div>
+    </div>
+
+</footer>
+<!--页尾部分结束-->
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/payment.js"></script>
+</body>
+</html>
